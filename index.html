@@ -88,7 +88,8 @@
 
         // 토글 버튼 클릭 시 하늘색 변경
         btnToggle.addEventListener('click', function () {
-            document.body.classList.toggle('bgcolor--blue');
+            document.body.classList.toggle('bgcolor--blue'); 
+            document.body.classList.remove('bgcolor--gray')
         });
 
         // 리셋 버튼 클릭 시 원래 배경색(연한 노랑)으로 복귀
